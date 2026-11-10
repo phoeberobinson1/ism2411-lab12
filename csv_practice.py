@@ -1,5 +1,3 @@
-# Author: Phoebe Robinson
-# Module 12 Lab: Read a Sales CSV, Write a Cleaned Report
 # Reflection Answers:
 # 1. Unlike Excel where formulas and data transforms are done manually or via graphical menus, Python's programmatic ETL pipeline allows us to reproduce, scale, and automate data manipulation identically across thousands of files. Excel is superior for rapid visual checks and ad-hoc charting, whereas Python excels at robust, repeatable, and automated data processing.
 # 2. A real business process that benefits from an append-mode log file is an automated nightly database backup or point-of-sale transaction logging. Append mode is the right tool because it preserves historical audit logs by safely adding new execution timestamps and metrics to the bottom of the file without ever overwriting past records.
